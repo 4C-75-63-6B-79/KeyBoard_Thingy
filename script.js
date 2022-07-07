@@ -14,6 +14,7 @@ function keyPressed(event) {
 }
 
 function removeTransition(event) {
+    console.log(event)
     if(event.propertyName == "transform") {
         event.target.classList.remove('button-pressed');
     }
